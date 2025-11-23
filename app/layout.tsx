@@ -2,19 +2,16 @@ const style = "body { background-color: grey; align-items: center; justify-conte
 const short = "https://www.youtube.com/shorts/eszgZ79GjRY";
 export default function App() {
 	return(
-                <html>
+     <html>
 			<body>
-                                <style>
+          <style>
 					{style}
  			       </style>
 				<em><h1>Hi, I'm Zain!</h1></em>
 				<p> Welcome to my portfolio </p>
                                 <p> Technologies learned: JavaScript React Python Next </p>
-                                <div>
-                     	                <Thumbnail video={video}/>
- 					<p>A Short</p>
-                                        </a>
- 					</div>
+                     	                <Thumbnail video={video}></Thumbnail>
+ 					                           <p>A Short</p>
 				</body>
 			</html>
 	);
