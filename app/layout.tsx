@@ -11,7 +11,7 @@ export default function App() {
 				<p> Welcome to my portfolio </p>
                                 <p> Technologies learned: JavaScript React Python Next </p>
                                 <div>
-                     	                <a href="{short}">
+                     	                <Thumbnail video={video}/>
  					<p>A Short</p>
                                         </a>
  					</div>
