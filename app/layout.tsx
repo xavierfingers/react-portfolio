@@ -10,7 +10,7 @@ export default function App() {
 				<em><h1>Hi, I'm Zain!</h1></em>
 				<p> Welcome to my portfolio </p>
                                 <p> Technologies learned: JavaScript React Python Next </p>
-                     	                <iframe src={video}></iframe>
+                     	                <iframe src={short}></iframe>
  					                           <p>A Short</p>
 				</body>
 			</html>
